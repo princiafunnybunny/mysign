@@ -1,0 +1,91 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+body {
+    padding: 0;
+    background-color: rgb(108, 0, 45);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+
+.recuadro-login {
+    width: 50%;
+    height: 60%;
+    background-color: rgb(194, 58, 93);
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 14px 25px 63px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 14px 25px 63px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 25px 63px 0px rgba(0,0,0,0.75);
+}
+
+.container-form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-input {
+    margin: 5px 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    color: white;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+input {
+    width: 70%;
+    border-radius: 60px;
+    height: 40px;
+    border: none;
+    padding: 0 20px;
+}
+
+button {
+    margin-top: 20px;
+    font-family:Quicksand;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: rgb(108, 0, 45);
+    color: white;
+    border: none;
+    height: 45px;
+    width: 70%;
+    border-radius: 25px;
+}
+
+.container-image {
+    width: 50%;
+    background-image: url(./524a6605cb2bfb6dcde69c269478e3b3-PhotoRoom.png-PhotoRoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
